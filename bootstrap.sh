@@ -47,3 +47,5 @@ find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
 done
 
 success "Finished installing Dotfiles"
+success "Please, install Oh-My-Zsh and NerdFont"
+open "https://gist.github.com/kevin-smets/8568070"
