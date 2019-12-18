@@ -6,9 +6,9 @@ Installs and configures:
 
 - Mac OSX defaults
 - Git aliases and configs
-- Fish shell with aliases and prompt
-- Visual Studio Code and extensions
-- Other useful desktop apps (Clipy, Spectacle, Chrome, Slack, etc.)
+- ~Fish shell with aliases and prompt~
+- NVIM and extensions
+- Other useful desktop apps (Clipy, Rectangle, Chrome, Slack, etc.)
 
 Each folder has a dedicated `setup.sh`. 
 
@@ -22,7 +22,7 @@ That's it.
 
 1. Download or clone this repo into `~/dotfiles` (e.g. run the following command)
 
-`curl -sSL https://github.com/vtex/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip`
+`curl -sSL https://github.com/luciannojunior/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip`
 
 2. Edit the file `git/.gitconfig` with your information (name and email)
 3. Edit the file `macos/setup.sh` with your desired COMPUTER_NAME

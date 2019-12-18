@@ -29,3 +29,5 @@ find * -name "*.list" | while read fn; do
     done < "$fn"
     success "Finished installing $1 packages."
 done
+
+open "https://github.com/rxhanson/Rectangle/releases/download/v0.12/Rectangle0.12.dmg"
